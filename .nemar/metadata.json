@@ -1,0 +1,139 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Satyam Kumar": {
+      "orcid": "0000-0003-4817-1768",
+      "affiliations": [
+        {
+          "name": "Chandra Family Department of Electrical and Computer Engineering, The University of Texas at Austin , Austin, TX 78712 , USA"
+        }
+      ]
+    },
+    "Hussein Alawieh": {
+      "orcid": "0000-0002-2888-4958",
+      "affiliations": [
+        {
+          "name": "Chandra Family Department of Electrical and Computer Engineering, The University of Texas at Austin , Austin, TX 78712 , USA"
+        }
+      ]
+    },
+    "Frigyes Samuel Racz": {
+      "orcid": "0000-0001-9077-498X",
+      "affiliations": [
+        {
+          "name": "Department of Neurology, The University of Texas at Austin , Austin, TX 78712 , USA"
+        },
+        {
+          "name": "Mulva Clinic for the Neurosciences, The University of Texas at Austin , Austin, TX 78712 , USA"
+        }
+      ]
+    },
+    "Rawan Fakhreddine": {
+      "orcid": "0000-0002-6012-4019",
+      "affiliations": [
+        {
+          "name": "Chandra Family Department of Electrical and Computer Engineering, The University of Texas at Austin , Austin, TX 78712 , USA"
+        }
+      ]
+    },
+    "Jose del R. Millan": {
+      "orcid": "0000-0001-5819-1522",
+      "affiliations": [
+        {
+          "name": "Chandra Family Department of Electrical and Computer Engineering, The University of Texas at Austin , Austin, TX 78712 , USA"
+        },
+        {
+          "name": "Department of Neurology, The University of Texas at Austin , Austin, TX 78712 , USA"
+        },
+        {
+          "name": "Mulva Clinic for the Neurosciences, The University of Texas at Austin , Austin, TX 78712 , USA"
+        },
+        {
+          "name": "Departement of Biomedical Engineering, The University of Texas at Austin , Austin, TX 78712 , USA"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1093/pnasnexus/pgae076",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000177",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000177",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.10694880",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Coleman Fung Foundation"
+    },
+    {
+      "funder_name": "Sinclair Foundation"
+    }
+  ],
+  "title": "Kumar2024",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.8 GB (361 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A longitudinal motor imagery EEG dataset from 18 BCI-naive subjects across 6 sessions (1 offline + 5 online) demonstrating transfer learning for brain-computer interface skill acquisition. The study compares two domain adaptation frameworks—Generic Recentering (unsupervised) and Personally Assisted Recentering (supervised)—for calibration-free BCI training using left/right hand motor imagery with visual feedback. Data were acquired at 512 Hz using 22 EEG channels and processed with Riemannian geometry-based classifiers.",
+  "methods_description": "EEG data were recorded from 18 healthy subjects (age mean=23.22±3.59 years) across 6 sessions using ANT Neuro eego mylab hardware with 22 EEG channels and 3 EOG channels at 512 Hz sampling rate. Subjects performed cue-based left/right hand motor imagery tasks with continuous visual feedback across bar-feedback runs and car racing games. Session 1 consisted of 4 offline runs (80 trials); sessions 2-6 included 3-4 online runs each. EEG signals were bandpass filtered at 8-30 Hz using second-order Butterworth filters. Features were extracted as covariance matrices and classified using Riemannian Minimum Distance to Mean decoder.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "transfer learning"
+    },
+    {
+      "term": "domain adaptation"
+    },
+    {
+      "term": "Riemannian geometry"
+    },
+    {
+      "term": "longitudinal training"
+    },
+    {
+      "term": "BCI skill acquisition"
+    },
+    {
+      "term": "calibration-free"
+    }
+  ],
+  "source_hash": "88e72cc67e892cb694dbed6a425b288d4a676687d79ca8131fec2e5d5491d9c6"
+}
