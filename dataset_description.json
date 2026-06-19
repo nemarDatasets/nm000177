@@ -1,0 +1,51 @@
+{
+    "Name": "Kumar2024",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Satyam Kumar",
+        "Hussein Alawieh",
+        "Frigyes Samuel Racz",
+        "Rawan Fakhreddine",
+        "Jose del R. Millan"
+    ],
+    "Funding": [
+        "Coleman Fung Foundation",
+        "Sinclair Foundation"
+    ],
+    "EthicsApprovals": [
+        "The University of Texas at Austin (Protocol 2020-03-0073)"
+    ],
+    "ReferencesAndLinks": [
+        "https://zenodo.org/records/10694880",
+        "10.1093/pnasnexus/pgae076"
+    ],
+    "Keywords": [
+        "motor imagery",
+        "brain-computer interface",
+        "EEG",
+        "transfer learning",
+        "domain adaptation",
+        "Riemannian geometry",
+        "longitudinal training",
+        "BCI skill acquisition"
+    ],
+    "DatasetDOI": "doi:10.1093/pnasnexus/pgae076",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.5.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.1093/pnasnexus/pgae076",
+            "URL": "https://zenodo.org/records/10694880"
+        }
+    ],
+    "PublicationYear": 2024
+}

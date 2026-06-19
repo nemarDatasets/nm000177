@@ -1,0 +1,193 @@
+_dataset:
+  class: Kumar2024
+  code: Kumar2024
+  doi: 10.1093/pnasnexus/pgae076
+  interval:
+  - 0
+  - 5
+  n_subjects: 18
+  paradigm: imagery
+abstract: 'Subject training is crucial for acquiring brain-computer interface (BCI) control. Here, we show that a decoder
+  trained on the data of a single expert is readily transferable to inexperienced users via domain adaptation techniques allowing
+  calibration-free BCI training. We introduce two real-time frameworks: Generic Recentering (GR) through unsupervised adaptation
+  and Personally Assisted Recentering (PAR) that extends GR by employing supervised recalibration. We evaluated our frameworks
+  on 18 healthy naive subjects over five online sessions, who operated a synchronous bar task and a car racing game. Our frameworks
+  promoted subjects'' ability to acquire individual BCI skills.'
+acquisition:
+  auxiliary_channels:
+    eog_channels: 3
+    eog_type:
+    - horizontal
+    - vertical
+    has_eog: true
+  cap_manufacturer: ANT Neuro
+  cap_model: waveguard EEG cap
+  channel_types:
+    eeg: 22
+    eog: 3
+  ground: AFz
+  hardware: ANT Neuro eego mylab
+  line_freq: 60.0
+  montage: standard_1020
+  n_channels: 22
+  reference: CPz
+  sampling_rate: 512.0
+  sensor_type: EEG
+  sensors:
+  - F7
+  - F3
+  - Fz
+  - F4
+  - F8
+  - FC5
+  - FC1
+  - FC2
+  - FC6
+  - C3
+  - Cz
+  - C4
+  - CP5
+  - CP1
+  - CP2
+  - CP6
+  - P7
+  - P3
+  - Pz
+  - P4
+  - P8
+  - POz
+bci_application:
+  applications:
+  - motor_control
+  - neurofeedback
+  environment: laboratory
+  online_feedback: true
+cross_validation:
+  cv_method: longitudinal sessions
+  evaluation_type:
+  - within_subject
+  - cross_subject
+data_structure:
+  n_blocks: 6
+  n_trials: 20
+  n_trials_per_class:
+    left_hand: 10
+    right_hand: 10
+  trials_context: '20 trials per run (10 left, 10 right). Session 1: 4 offline runs (80 trials). Session 2: 4 online bar runs
+    (80 trials). Sessions 3-6: 3 online bar runs each (60 trials). Total bar-feedback trials per subject: 400.'
+documentation:
+  associated_paper_doi: 10.1093/pnasnexus/pgae076
+  contact_info:
+  - satyam.kumar@utexas.edu
+  - jose.millan@austin.utexas.edu
+  country: US
+  data_url: https://zenodo.org/records/10694880
+  description: Multi-session longitudinal MI training dataset with 18 BCI-naive subjects over 6 sessions. Demonstrates that
+    inter-subject transfer learning from a single expert promotes acquisition of individual BCI skills via unsupervised domain
+    adaptation.
+  doi: 10.1093/pnasnexus/pgae076
+  ethics_approval:
+  - The University of Texas at Austin (Protocol 2020-03-0073)
+  funding:
+  - Coleman Fung Foundation
+  - Sinclair Foundation
+  institution: The University of Texas at Austin
+  institution_address: Austin, TX, USA
+  investigators:
+  - Satyam Kumar
+  - Hussein Alawieh
+  - Frigyes Samuel Racz
+  - Rawan Fakhreddine
+  - Jose del R. Millan
+  keywords:
+  - motor imagery
+  - brain-computer interface
+  - EEG
+  - transfer learning
+  - domain adaptation
+  - Riemannian geometry
+  - longitudinal training
+  - BCI skill acquisition
+  license: CC-BY-4.0
+  publication_year: 2024
+  repository: Zenodo
+  senior_author: Jose del R. Millan
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  events:
+    left_hand: 1
+    right_hand: 2
+  feedback_type: continuous visual
+  instructions: Subjects were instructed to mentally rehearse the kinesthetics, not the visualization, of left- or right-hand
+    movements without overtly causing any muscle contraction.
+  mode: online
+  n_classes: 2
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual cue and bar feedback
+  study_design: 'Longitudinal BCI training with inter-subject transfer learning. Subjects performed left/right hand MI with
+    bar-feedback and car racing tasks across 6 sessions on separate days. Two groups: Generic Recentering (GR, N=9) and Personally
+    Assisted Recentering (PAR, N=9).'
+  synchronicity: cue-based
+  trial_duration: 5.0
+  trials_per_class:
+    left_hand: 10
+    right_hand: 10
+file_format: GDF
+methodology: '18 BCI-naive subjects participated in 6 sessions (1 offline + 5 online) on separate days. Each session comprised
+  bar-feedback MI runs and car racing games. Bar runs had 20 trials (10 per class) with cue-based left/right hand MI. EEG
+  recorded at 512 Hz with 22 EEG + 3 EOG channels using ANT Neuro eego mylab. Two groups: GR (N=9, unsupervised) and PAR (N=9,
+  supervised recalibration). Features: covariance matrices in 8-30 Hz band classified with Riemannian MDM decoder.'
+paradigm_specific:
+  cue_duration_s: 1.5
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 5.0
+  imagery_tasks:
+  - left_hand
+  - right_hand
+participants:
+  age_mean: 23.22
+  age_std: 3.59
+  bci_experience: naive
+  gender:
+    female: 7
+    male: 11
+  health_status: healthy
+  n_subjects: 18
+  species: homo sapiens
+performance:
+  GR_NKV_end: 0.4694
+  GR_NKV_start: 0.2636
+  PAR_NKV_end: 0.6802
+  PAR_NKV_start: 0.4045
+preprocessing:
+  data_state: raw
+  notes: Raw EEG signals recorded in GDF format. For analysis, signals were bandpass filtered at 8-30 Hz using a second-order
+    Butterworth filter.
+runs_per_session: 3
+sessions_per_subject: 6
+signal_processing:
+  classifiers:
+  - Riemannian MDM
+  - CSP+LDA
+  feature_extraction:
+  - Covariance matrices
+  - Riemannian geometry
+  - CSP
+  frequency_bands:
+    mu_beta:
+    - 8.0
+    - 30.0
+  spatial_filters:
+  - CSP
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Motor Imagery
