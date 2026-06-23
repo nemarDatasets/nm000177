@@ -32,7 +32,7 @@
     "longitudinal training",
     "BCI skill acquisition"
   ],
-  "DatasetDOI": "doi:10.1093/pnasnexus/pgae076",
+  "DatasetDOI": "10.82901/nemar.nm000177",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -45,6 +45,9 @@
     {
       "DOI": "10.1093/pnasnexus/pgae076",
       "URL": "https://zenodo.org/records/10694880"
+    },
+    {
+      "DOI": "doi:10.1093/pnasnexus/pgae076"
     }
   ],
   "PublicationYear": 2024,
