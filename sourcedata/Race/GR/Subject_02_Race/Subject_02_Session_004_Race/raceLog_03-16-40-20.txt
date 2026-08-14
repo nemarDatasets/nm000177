@@ -1,0 +1,169 @@
+    0.020000:BCI Training Version 1.6
+    0.020000:listening for input on port:5555. my ip:127.0.0.1
+    0.020000:Player names applied!
+    0.020000:    green player name is : Player 1
+    0.020000:    blue player name is  : Player 2
+    0.020000:    red player name is   : Player 3
+    0.020000:    yellow player name is: BrainHorns
+    0.020000:Player names applied!
+    0.020000:    green player name is : Player 1
+    0.020000:    blue player name is  : Player 2
+    0.020000:    red player name is   : Player 3
+    0.020000:    yellow player name is: BrainHorns
+    0.020000:p1_resetToStart
+    0.020000:p2_resetToStart
+    0.020000:p3_resetToStart
+    0.020000:p4_resetToStart
+    0.020000:listening for input on port:5555. my ip:127.0.0.1
+   19.908090:start race
+   22.620000:p1_input clear because start of curve
+   22.620000:p1_expectedInput rightWinker
+   22.620000:p2_input clear because start of curve
+   22.620000:p2_expectedInput rightWinker
+   22.620000:p3_input clear because start of curve
+   22.620000:p3_expectedInput rightWinker
+   22.620000:p4_input clear because start of curve
+   22.620000:p4_expectedInput rightWinker
+   26.020000:p1_input leftWinker
+   27.880000:p1_input leftWinker
+   30.900000:p1_input rightWinker
+   33.680000:p1_input rightWinker
+   37.020000:p1_expectedInput none because end of curve
+   37.020000:p1_input clear because end of curve
+   37.260000:p1_input clear because start of curve
+   37.260000:p1_expectedInput leftWinker
+   37.380000:p1_input leftWinker
+   39.220000:p1_input leftWinker
+   40.780000:p1_input leftWinker
+   42.420000:p1_input leftWinker
+   45.460000:p1_expectedInput none because end of curve
+   45.460000:p1_input clear because end of curve
+   45.700000:p1_input clear because start of curve
+   45.700000:p1_expectedInput rightWinker
+   47.520000:p1_input rightWinker
+   49.220000:p1_input rightWinker
+   53.840000:p2_expectedInput none because end of curve
+   53.840000:p2_input clear because end of curve
+   53.840000:p3_expectedInput none because end of curve
+   53.840000:p3_input clear because end of curve
+   53.840000:p4_expectedInput none because end of curve
+   53.840000:p4_input clear because end of curve
+   54.400000:p2_input clear because start of curve
+   54.400000:p2_expectedInput leftWinker
+   54.400000:p3_input clear because start of curve
+   54.400000:p3_expectedInput leftWinker
+   54.400000:p4_input clear because start of curve
+   54.400000:p4_expectedInput leftWinker
+   55.240000:p1_expectedInput none because end of curve
+   55.240000:p1_input clear because end of curve
+   55.500000:p1_input clear because start of curve
+   55.500000:p1_expectedInput leftWinker
+   60.240000:p1_input leftWinker
+   62.480000:p1_input leftWinker
+   64.180000:p1_input leftWinker
+   67.240000:p1_expectedInput none because end of curve
+   67.240000:p1_input clear because end of curve
+   67.480000:p1_input clear because start of curve
+   67.480000:p1_expectedInput leftWinker
+   68.400000:p1_input leftWinker
+   70.480000:p1_input leftWinker
+   74.980000:p1_input leftWinker
+   76.300000:p1_expectedInput none because end of curve
+   76.300000:p1_input clear because end of curve
+   76.560000:p1_input clear because start of curve
+   76.560000:p1_expectedInput leftWinker
+   81.360000:p1_input rightWinker
+   83.939990:p1_input rightWinker
+   84.580000:p2_expectedInput none because end of curve
+   84.580000:p2_input clear because end of curve
+   84.580000:p3_expectedInput none because end of curve
+   84.580000:p3_input clear because end of curve
+   84.580000:p4_expectedInput none because end of curve
+   84.580000:p4_input clear because end of curve
+   85.120000:p2_input clear because start of curve
+   85.120000:p2_expectedInput rightWinker
+   85.120000:p3_input clear because start of curve
+   85.120000:p3_expectedInput rightWinker
+   85.120000:p4_input clear because start of curve
+   85.120000:p4_expectedInput rightWinker
+   86.020000:p1_input leftWinker
+   88.420000:p1_input rightWinker
+   94.100000:p1_input rightWinker
+   95.820000:p1_input rightWinker
+   97.439990:p1_input rightWinker
+  100.560000:p1_expectedInput none because end of curve
+  100.560000:p1_input clear because end of curve
+  101.120000:p1_input clear because start of curve
+  101.120000:p1_expectedInput rightWinker
+  104.880000:p1_input rightWinker
+  106.840000:p1_input rightWinker
+  108.560000:p1_input rightWinker
+  110.100000:p1_input rightWinker
+  111.860000:p1_expectedInput none because end of curve
+  111.860000:p1_input clear because end of curve
+  111.940000:p1_input rightWinker
+  111.940000:p1_wrongInput in noinput zone. goping to clear after 1 seconds
+  112.120000:p1_input clear because start of curve
+  112.120000:p1_expectedInput rightWinker
+  113.540000:p1_input rightWinker
+  115.200000:p1_input rightWinker
+  115.300000:p2_expectedInput none because end of curve
+  115.300000:p2_input clear because end of curve
+  115.300000:p3_expectedInput none because end of curve
+  115.300000:p3_input clear because end of curve
+  115.300000:p4_expectedInput none because end of curve
+  115.300000:p4_input clear because end of curve
+  115.840000:p2_input clear because start of curve
+  115.840000:p2_expectedInput leftWinker
+  115.840000:p3_input clear because start of curve
+  115.840000:p3_expectedInput leftWinker
+  115.840000:p4_input clear because start of curve
+  115.840000:p4_expectedInput leftWinker
+  116.720000:p1_input rightWinker
+  118.320000:p1_input rightWinker
+  119.920000:p1_input rightWinker
+  121.240000:p1_expectedInput none because end of curve
+  121.240000:p1_input clear because end of curve
+  121.500000:p1_input clear because start of curve
+  121.500000:p1_expectedInput leftWinker
+  130.320000:p1_input leftWinker
+  136.280000:p1_expectedInput none because end of curve
+  136.280000:p1_input clear because end of curve
+  136.540000:p1_input clear because start of curve
+  136.540000:p1_expectedInput rightWinker
+  143.260000:p1_input rightWinker
+  144.880000:p1_input rightWinker
+  146.020000:p2_expectedInput none because end of curve
+  146.020000:p2_input clear because end of curve
+  146.020000:p3_expectedInput none because end of curve
+  146.020000:p3_input clear because end of curve
+  146.020000:p4_expectedInput none because end of curve
+  146.020000:p4_input clear because end of curve
+  146.540000:p1_input rightWinker
+  146.580000:p2_input clear because start of curve
+  146.580000:p2_expectedInput leftWinker
+  146.580000:p3_input clear because start of curve
+  146.580000:p3_expectedInput leftWinker
+  146.580000:p4_input clear because start of curve
+  146.580000:p4_expectedInput leftWinker
+  149.760000:p1_expectedInput none because end of curve
+  149.760000:p1_input clear because end of curve
+  150.020000:p1_input clear because start of curve
+  150.020000:p1_expectedInput leftWinker
+  151.860000:p1_input leftWinker
+  153.620000:p1_input leftWinker
+  159.220000:p1_input leftWinker
+  159.580000:p1_expectedInput none because end of curve
+  159.580000:p1_input clear because end of curve
+  159.820000:p1_input clear because start of curve
+  159.820000:p1_expectedInput rightWinker
+  163.180000:p1_input rightWinker
+  164.880000:p1_input rightWinker
+  166.520000:p1_input rightWinker
+  168.360000:p1_input rightWinker
+  170.520000:p1_expectedInput none because end of curve
+  170.520000:p1_input clear because end of curve
+  170.780000:p1_finish 150.8719
+  171.380000:p1_input rightWinker
+  171.380000:p1_wrongInput in noinput zone. goping to clear after 1 seconds
+  172.380000:p1_clearInput because input was wrong in noinput zone and timeout was reached.
