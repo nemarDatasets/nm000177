@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Multi-session longitudinal motor imagery EEG dataset (Kumar et al. 2024)",
-  "description": "A longitudinal motor imagery EEG dataset from 18 brain-computer interface (BCI)-naive subjects acquired across 6 sessions (1 offline + 5 online) to investigate transfer learning and domain adaptation for calibration-free BCI training. The study compares Generic Recentering (unsupervised) and Personally Assisted Recentering (supervised) frameworks using left/right hand motor imagery with visual feedback. EEG signals were recorded at 512 Hz from 22 channels and analyzed using Riemannian geometry-based classifiers to assess BCI skill acquisition.",
+  "description": "A longitudinal motor imagery EEG dataset from 18 brain-computer interface (BCI)-naive subjects acquired across 6 sessions (1 offline + 5 online) to investigate transfer learning and domain adaptation for calibration-free BCI training. Subjects performed cue-based left/right hand motor imagery tasks with visual feedback using 22 EEG channels sampled at 512 Hz. The dataset compares Generic Recentering (unsupervised) and Personally Assisted Recentering (supervised) domain adaptation frameworks, with features extracted as covariance matrices and classified using Riemannian geometry-based methods.",
   "methods_description": "EEG data were recorded from 18 healthy subjects (age 23.22±3.59 years) using ANT Neuro eego mylab hardware with 22 EEG channels and 3 EOG channels at 512 Hz sampling rate. Subjects performed cue-based left/right hand motor imagery tasks with continuous visual feedback across bar-feedback runs and car racing games. Session 1 consisted of 4 offline runs (80 trials); sessions 2-6 included 3-4 online runs each. EEG signals were bandpass filtered at 8-30 Hz using second-order Butterworth filters. Features were extracted as covariance matrices and classified using Riemannian Minimum Distance to Mean decoder.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
@@ -87,6 +87,9 @@
     },
     {
       "term": "calibration-free"
+    },
+    {
+      "term": "longitudinal"
     }
   ],
   "related_identifiers": [
@@ -137,5 +140,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "36589e73128ecdb2d5f972452c456e5bc44a962c4b631dce58739ed4d754ec65"
+  "source_hash": "0bf05d7bc0d150a5122802c770f73f55235ac9f12183fc803be795bcea838095"
 }
