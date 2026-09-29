@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Multi-session longitudinal motor imagery EEG dataset (Kumar et al. 2024)",
-  "description": "This dataset comprises multi-session longitudinal motor imagery EEG recordings from 18 BCI-naive subjects across six sessions (one offline, five online), designed to study transfer learning and BCI skill acquisition. It compares two domain adaptation frameworks—Generic Recentering and Personally Assisted Recentering—for calibration-free brain-computer interface training using left/right hand motor imagery with visual feedback. The dataset was converted to BIDS format via the MOABB pipeline and is hosted on NEMAR as part of a benchmark collection.",
-  "methods_description": "EEG data were recorded from 18 healthy subjects using ANT Neuro eego mylab hardware with 22 EEG channels and 3 EOG channels at 512 Hz. Subjects performed cue-based left/right hand motor imagery tasks with continuous visual feedback across bar-feedback runs and car racing games. Session 1 consisted of 4 offline runs; sessions 2-6 included 3-4 online runs each. Signals were bandpass filtered (8-30 Hz) with second-order Butterworth filters, and covariance matrix features were classified using a Riemannian Minimum Distance to Mean decoder.",
+  "description": "A longitudinal motor imagery EEG dataset from 18 BCI-naive participants recorded across six sessions (one offline and five online) to study transfer learning for brain-computer interface skill acquisition. It compares Generic Recentering (unsupervised) and Personally Assisted Recentering (supervised) domain adaptation for calibration-free BCI training with left/right hand motor imagery and visual feedback. Data were recorded with 22 EEG channels at 512 Hz and decoded with Riemannian geometry-based classifiers.",
+  "methods_description": "EEG was recorded from 18 healthy subjects over 6 sessions using ANT Neuro eego mylab hardware (22 EEG and 3 EOG channels, 512 Hz). Participants performed cue-based left/right hand motor imagery with continuous visual feedback in bar-feedback runs and car racing games. Session 1 had 4 offline runs (80 trials) and sessions 2-6 had 3-4 online runs each. Signals were bandpass filtered at 8-30 Hz (second-order Butterworth), and covariance features were classified with a Riemannian Minimum Distance to Mean decoder.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -84,12 +84,6 @@
     },
     {
       "term": "BCI skill acquisition"
-    },
-    {
-      "term": "MOABB"
-    },
-    {
-      "term": "calibration-free BCI"
     }
   ],
   "related_identifiers": [
@@ -128,7 +122,7 @@
     "eeg"
   ],
   "sizes": [
-    "15.5 GB (1174 files)"
+    "14.42 GB (1174 files)"
   ],
   "formats": [
     ".edf",
