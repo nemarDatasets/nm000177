@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Multi-session longitudinal motor imagery EEG dataset (Kumar et al. 2024)",
-  "description": "A longitudinal motor imagery EEG dataset from 18 BCI-naive participants recorded across six sessions (one offline and five online) to study transfer learning for brain-computer interface skill acquisition. It compares Generic Recentering (unsupervised) and Personally Assisted Recentering (supervised) domain adaptation for calibration-free BCI training with left/right hand motor imagery and visual feedback. Data were recorded with 22 EEG channels at 512 Hz and decoded with Riemannian geometry-based classifiers.",
-  "methods_description": "EEG was recorded from 18 healthy subjects over 6 sessions using ANT Neuro eego mylab hardware (22 EEG and 3 EOG channels, 512 Hz). Participants performed cue-based left/right hand motor imagery with continuous visual feedback in bar-feedback runs and car racing games. Session 1 had 4 offline runs (80 trials) and sessions 2-6 had 3-4 online runs each. Signals were bandpass filtered at 8-30 Hz (second-order Butterworth), and covariance features were classified with a Riemannian Minimum Distance to Mean decoder.",
+  "description": "A longitudinal motor imagery EEG dataset from 18 BCI-naive participants recorded across six sessions (one offline, five online) with left/right hand motor imagery and continuous visual feedback. It was collected to study transfer learning for acquiring BCI skills, comparing unsupervised Generic Recentering and supervised Personally Assisted Recentering for calibration-free training. Data comprise 22 EEG channels sampled at 512 Hz and were processed with Riemannian geometry-based classifiers.",
+  "methods_description": "EEG was recorded from 18 healthy subjects over 6 sessions with ANT Neuro eego mylab (22 EEG and 3 EOG channels, 512 Hz). Subjects performed cue-based left/right hand motor imagery with bar-feedback runs and car racing games; session 1 had 4 offline runs (80 trials) and sessions 2-6 had 3-4 online runs each. Signals were bandpass filtered 8-30 Hz (second-order Butterworth), covariance features were extracted, and a Riemannian Minimum Distance to Mean decoder was used.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -134,5 +134,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "48446033110d430bcfc2f92c207fe446e327a011e05ddf4b277f91dfcde44c6b"
+  "source_hash": "799883207285ac1d3f6b94c7266ea1e484a838e8ebb2a844b47fdec84454e3a4"
 }
